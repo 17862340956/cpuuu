@@ -1,0 +1,18 @@
+{
+  "revision": "qilin-r4-20261028",
+  "kernel_build": "not run locally; pending Actions",
+  "module_activation": "not performed",
+  "python_tests_with_elftools": "16 passed",
+  "python_tests_without_elftools": "15 passed; 1 conditional skip",
+  "android_shell_syntax": "passed for original SH",
+  "isolated_android_sh_scenarios": {
+    "inspect_ok": "exit0",
+    "inspect_error": "exit1",
+    "combo_match": "exit0 with PASS97 FAIL0",
+    "combo_mismatch": "exit1",
+    "partial_conflict": "exit1"
+  },
+  "callback_bodies": "four SHA256 fingerprints unchanged from on-device-tested r3",
+  "review": "independent read-only review completed; inspect-result check corrected",
+  "source_sha256": "41aa0503273201d601011a8a3c65d4dfe30131503298aaa7dea6395cf6a6ac2c"
+}
